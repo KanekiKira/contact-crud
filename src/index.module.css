@@ -1,0 +1,51 @@
+.contactBox {
+    display: flex;
+    width: 30%;
+    color: rgb(47, 203, 255);
+    font-size: 20px;
+}
+.contactBox> img{
+width: 300px;
+}
+
+.deleteButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+.edditButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.inputButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+
+.contactul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
